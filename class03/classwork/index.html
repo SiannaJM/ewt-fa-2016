@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Responsive Images</title>
+
+		<link rel="stylesheet" href="css/base.css">
+
+		<style type="text/css">
+			/* mobile first option */
+			.page-heading {
+				text-align: center;
+				font-size: 18px;
+			}
+
+			.frisbee {
+				color: #fff;
+				font-size: 20px;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: bold;
+				text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+				padding-top: 20px;
+				margin: 0 auto;
+				background-image: url('images/frisbee-mobile.jpg');
+				width: 280px;
+				height: 280px;
+				transition: all 0.3s ease;
+			}
+
+			/* high res mobile */
+		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+			.frisbee {
+				background-image: url('images/frisbee-mobile@2x.jpg');
+				background-size: 100%;
+			}
+		}
+
+
+			/* tablet */
+		@media(min-width : 768px) {
+				.frisbee {
+					background-image: url('images/frisbee-tablet.jpg');
+				}
+			}
+
+			/* high res tablet */
+			@media (-webkit-min-device-pixel-ratio: 2) and( min-width:768px), (min-resolution: 192dpi) and (min-width:768px) {
+				.frisbee{
+					background-image: url('images/frisbee-tablet@2x.jpg');
+				}
+			}
+
+
+			/* desktop */
+			@media(min-width : 1024px) {
+					.frisbee {
+						font-size: 40px;
+						background-image: url('images/frisbee-desktop.jpg');
+					}
+				}
+
+			/* high res desktop */
+			@media (-webkit-min-device-pixel-ratio: 2) and (min-width : 1024px), (min-resolution: 192dpi) and (min-width : 1024px) {
+				.frisbee{
+					background-image: url('images/frisbee-desktop@2x.jpg');
+					height:1024px
+
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main class="wrapper" role="main">
+			<h1 class="page-heading">CSS Background Images Demo</h1>
+			<hr>
+			<div class="frisbee">
+				Novelty flying disk!
+			</div>
+		</main>
+	</body>
+</html>
