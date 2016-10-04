@@ -1,0 +1,26 @@
+$breakTablet: 760px;
+$breakDesktop: 1000px;
+
+@mixin clearfix {
+  &:after{
+    content: '';
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin transition() {
+  transition: all 0.2s ease;
+}
+
+@mixin textshadow {
+  color: $purple;
+  font-size: 1.4rem;
+  text-shadow: 1px 0 0 $rose, -1px 0 0 $rose, 0 1px 0 $rose, 0 -1px 0 $rose;
+}
+
+@mixin rotation {
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
