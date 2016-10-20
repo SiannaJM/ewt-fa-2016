@@ -7,16 +7,11 @@ h1{
   font-size: 50px;
 }
 
-.work {
-  font-weight: bold;
-  top: 50px;
-}
-
 li, ol {
   text-align: center;
   display: block;
   padding:20px;
-  font-size: 40px;
+  font-size: 30px;
 
 }
  a {
