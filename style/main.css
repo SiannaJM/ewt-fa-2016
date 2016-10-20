@@ -11,10 +11,8 @@ h1{
 .work ul {
   font-weight: bold;
   top: 50px;
-  float:left;
-  text-align: center;
-
 }
+
 .work li {
   text-align: center;
   list-style: number;
