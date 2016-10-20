@@ -7,8 +7,7 @@ h1{
   font-size: 50px;
 }
 
-
-ol .work {
+.work {
   font-weight: bold;
   top: 50px;
 }
@@ -21,7 +20,6 @@ li, ol {
 
 }
  a {
-  border-right: 1px solid(255, 0, 0)
   padding:20 20px;
   color: #000;
   text-decoration:none;
