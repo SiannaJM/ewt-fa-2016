@@ -8,14 +8,13 @@ h1{
 }
 
 
-.work ul {
+ol .work {
   font-weight: bold;
   top: 50px;
 }
 
-.work li {
+li .work {
   text-align: center;
-  list-style: number;
   display: block;
   padding:20px;
   font-size: 40px;
