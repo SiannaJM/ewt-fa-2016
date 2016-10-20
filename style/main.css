@@ -17,16 +17,15 @@ h1{
 }
 .work li {
   text-align: center;
-  list-style: none;
-  display: inline-table;
+  list-style: number;
+  display: block;
   padding:20px;
   font-size: 40px;
 
 }
-.work a{
-  background: grey;
+ a{
   border-right: 1px solid(255, 0, 0)
   padding:20 20px;
   color: #000;
-  text-decoration: none;
+  
 }
