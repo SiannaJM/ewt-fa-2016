@@ -8,12 +8,12 @@ h1{
 }
 
 
-ol .work {
+ol {
   font-weight: bold;
   top: 50px;
 }
 
-li .work {
+li {
   text-align: center;
   display: block;
   padding:20px;
