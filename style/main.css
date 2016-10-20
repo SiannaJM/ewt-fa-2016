@@ -7,6 +7,10 @@ h1{
   font-size: 50px;
 }
 
+.list2 li{
+  list-style-type: square;
+}
+
 .work ul {
   font-weight: bold;
   top: 50px;
