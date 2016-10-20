@@ -8,8 +8,9 @@ h1{
 }
 
 li, ol {
+  text-align: center;
   display: block;
-  padding:20px;
+  padding:10px;
   font-size: 30px;
 
 }
