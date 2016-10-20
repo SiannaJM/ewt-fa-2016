@@ -8,19 +8,19 @@ h1{
 }
 
 
-ol {
+ol .work {
   font-weight: bold;
   top: 50px;
 }
 
-li {
+li, ol {
   text-align: center;
   display: block;
   padding:20px;
   font-size: 40px;
 
 }
- a{
+ a {
   border-right: 1px solid(255, 0, 0)
   padding:20 20px;
   color: #000;
