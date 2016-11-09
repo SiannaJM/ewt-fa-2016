@@ -1,0 +1,38 @@
+body {
+  background-color: #FCB0B3; }
+
+.floater {
+  border: solid 15px #7D4959;
+  background: #B36980;
+  text-align: center;
+  padding: 10px;
+  margin: 10px; }
+
+h1.header {
+  border: solid 20px #93294A;
+  background: #B36980;
+  text-align: center;
+  font-size: 50px; }
+
+li, ol {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  font-size: 30px;
+  text-decoration-style: none; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+.container {
+  justify-content: space-around; }
+
+@media (480px) {
+  width: 100%; }
+@media (760px) {
+  width: 100%; }
+@media (1000px) {
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
