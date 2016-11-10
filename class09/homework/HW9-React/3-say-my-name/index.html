@@ -28,24 +28,22 @@
       class Greetings extends React.Component{
         constructor(){
           super();
-          this.state = {
-            name: true
-          };
+          this.state = {};
         }
 
-        onKeyUp(){
+        onKeyUp(event){
           this.setState({
-            name: !this.state.name
+          name: event.target.value
           });
         }
 
+
         render (){
-          console.log(this.state.name);
 
           return (
             <div className="greeting">
-            <input className="greeting__input" type="text" onKeyUp={this.onKeyUp.bind(this)}/>
-            <h2 className="greeting__message">Hello, {this.state.name}!</h2>
+              <input className="greeting__input" type="text" onKeyUp={this.onKeyUp.bind(this)}/>
+              {this.state.name && <h2 className="greeting__message">Hello, {this.state.name}!</h2>}
             </div>
 
           );
